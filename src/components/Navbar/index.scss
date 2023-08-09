@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #bf4080;
+  padding: 1.5rem;
+  max-width: 990px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.navbar-list {
+  li {
+    margin: 0 10px;
+
+    a {
+      border-bottom: 2px solid white;
+    }
+
+    &:hover {
+      a {
+        color: black !important;
+      }
+    }
+  }
+}
